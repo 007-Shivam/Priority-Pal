@@ -1,0 +1,82 @@
+h4{
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.all {
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(147, 179, 181);
+    position: relative;
+    left: 10%;
+    top: 60px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.task-types{
+    position: relative;
+    top: 60px;
+    width: 40%;
+    height: 35vh;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-types:hover{
+    box-shadow: 2px 2px 10px;
+}
+
+.work{
+    background-color: rgb(76, 76, 132);
+}
+.personal{
+    background-color: rgb(107, 60, 60);
+}
+.life{
+    background-color: rgb(83, 150, 83);
+}
+
+.task-logo{
+    width: 70px;
+    border-radius: 90px;
+    border: 3px #000 solid ;
+}
+
+.task-name, .total-tasks{
+    text-align: center;
+}
+
+.task-name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.total-tasks{
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px){    
+    .all {
+        width: 80%;
+        height: 160vh;
+        left: 10%;
+        top: 60px;
+        padding: 20px;
+        display: grid;
+    }
+    
+    .task-types{
+        top: 10px;
+        width: 90%;
+        height: 45vh;
+        margin: 0 10px;
+        padding: 0px;
+    }
+}

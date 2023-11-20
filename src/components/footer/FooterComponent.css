@@ -1,0 +1,28 @@
+.footer-container {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 10vh;
+    background-color: #d1d3d7;
+    padding: 20px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.my-github{
+    color: blue;
+    text-decoration: none;
+}
+
+.my-github:hover {
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        padding: 10px;
+    }
+}
