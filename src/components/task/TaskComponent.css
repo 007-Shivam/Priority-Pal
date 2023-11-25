@@ -1,4 +1,4 @@
-/* .the-container{
+.the-container{
     position: relative;
     right: 350px;
     top: 100px;
@@ -98,24 +98,4 @@
 
 .delete:hover{
     color: red;
-} */
-
-.the-button{
-    margin: 5px;
-    width: 10vh;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.back-icon{
-    font-size: 80px;
-}
-
-@media only screen and (max-width: 768px){
-    .back-icon{
-        font-size: 80px;
-        padding: 0px 0 0 10px;
-    }
 }
